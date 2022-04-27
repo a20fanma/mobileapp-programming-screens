@@ -3,12 +3,8 @@ package com.example.screens;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.util.Log;
 
-public class MainActivity extends AppCompatActivity {
-
-
-
+public class Profile extends AppCompatActivity {
     @Override
     protected void onPostResume() {
         super.onPostResume();
@@ -32,10 +28,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-
-
+        setContentView(R.layout.activity_profile);
     }
-
 }
