@@ -24,8 +24,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, ProfileActivity.class);
-                ImageView imageView = findViewById(R.id.card_image);
-                EditText editText = findViewById(R.id.card_username);
                 startActivity(intent);
             }
         });
